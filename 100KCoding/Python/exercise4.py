@@ -1,6 +1,6 @@
 print('Finding BMI = weight/height²')
-weight = int(input("What is your weight?\t"))
-height = float(input('What is your height in metres?\t'))
+weight = int(input("Enter your weight in kg: "))
+height = float(input('Enter you height in m: '))
 
 BMI = weight/height ** 2
 
