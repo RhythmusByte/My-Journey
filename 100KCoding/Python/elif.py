@@ -1,9 +1,10 @@
+
 height = int(input('Enter your height in feet: '))
 
 if height >= 3:
-    handicapped = input('Are you handicapped? (Type 1 for yes or 0 for no): ')
+    handicapped = input('Are you handicapped? (Type yes or no): ')
     
-    if handicapped == '1':
+    if handicapped.lower() == 'yes':
         age = int(input('Enter your age: '))
         
         if age <= 12:
