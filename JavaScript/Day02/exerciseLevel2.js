@@ -66,7 +66,5 @@ let sentence = 'You cannot end a sentence with because because because is a conj
 let startIndex = sentence.indexOf('because');
 let word = 'because because because';
 let lengthOfWord = word.length;
-let endIndex = startIndex + lengthOfWord - startIndex;
 let str = sentence.substr(startIndex, lengthOfWord);
-
 console.log(str);
