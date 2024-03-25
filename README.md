@@ -2,4 +2,4 @@
 
 This repository is used for saving snippets, notes, programs, etc. 
 
-> Ignore this repo
+> Ignore this repository
