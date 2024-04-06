@@ -1,5 +1,3 @@
-# My-Journey
+`This repo is used to store some files created while I'm learn JavaScript`
 
-This repository is used for saving snippets, notes, programs, etc. 
-
-> Ignore this repository
+> Ignore this repo
