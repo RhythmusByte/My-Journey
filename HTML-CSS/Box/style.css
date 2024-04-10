@@ -1,11 +1,11 @@
 @font-face {
-  src: url(fonts/Anta.ttf);
+  src: url('font/Anta.ttf');
   font-family: Anta;
 }
 
 @font-face  {
   font-family: 'ProtestRevolution';
-  src: url('fonts/ProtestRevolution.ttf');
+  src: url('font/ProtestRevolution.ttf');
 }
 
 body {
