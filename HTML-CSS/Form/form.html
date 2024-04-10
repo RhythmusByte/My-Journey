@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form</title>
+</head>
+<body>
+  
+  <form action="#" method="POST">
+    
+    <label for="name">Name: </label>
+    <input type="text" id="name" placeholder="Roronoa Zoro" minlength"3">
+    
+    <br>
+    
+    <label for="age">Age: </label>
+    <input type="number" id="age" placeholder="18" max="99" min="18">
+    
+    <br>
+    
+    <label for="email">Email: </label>
+    <input type="email" name="email" placeholder="roronoazoro@gmail.com" id="email">
+    
+    <br>
+    
+    <label for="phone">WhatsApp: </label>
+    <input type="tel" name="phone" id="phone" placeholder="123-456-7890" pattern="[0-9]{10}">
+    
+    <br>
+    
+    <label for="dob">DOB: </label>
+    <input type="date" name="dob" id="dob">
+    
+    <br>
+    
+    <label for="gender">Gender: </label>
+    
+    <br>
+    
+    <input type="radio" id="Male" value="Male" name="gender">
+    <label for="Male">Male</label>
+    <br>
+    <input type="radio" id="Female" value="Female" name="gender">
+    <label for="Female">Female</label>
+    <br>
+    <input type="radio" id="Other" value="Other" name="gender">
+    <label for="Other">Other</label>
+    
+    <br>
+    
+    <label for="image">Profile Picture: </label>
+    <input type="file" name="image" accept="image/png, image/jpg, image/jpeg" id="image">
+    
+    <br>
+    
+    <label for="password">Password: </label>
+    <input type="password" id="password" maxlength="12" minlength="8">
+    
+    <br>
+    
+    <label for="address">Address: </label>
+    <textarea id="address" placeholder="Thousand Sunny, New World, One Piece Universe" cols="25" rows="2"></textarea>
+    
+    <br>
+    
+    <input type="checkbox" name="subscribe" id="subscribe">
+    <label for="subscribe">Subscribe for newsletter</label>
+    
+    <br>
+    
+    <input type="reset">
+    <input type="submit">
+  </form>
+  
+</body>
+</html>
+  
