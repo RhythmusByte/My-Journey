@@ -1,0 +1,21 @@
+body {
+  background: url('background.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  font-family: Anta;
+}
+
+#greet {
+  font-family: "Protest Revolution", Anta;
+  text-align: center;
+  text-shadow: 2px 2px 2px gray;
+}
+
+#button {
+  font-family: Raleway;
+  background-color: ghostwhite;
+  border-radius: 20px;
+}
