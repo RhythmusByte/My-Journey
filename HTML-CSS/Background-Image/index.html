@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Background Image</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anta&family=Protest+Revolution&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1 id="greet">Hello Bro</h1>  
+  <div align="center" id="button-container">
+    <button id="button" onclick="greeting()">I'm a girl...!</button>
+  </div>
+  <p>hac an similique augue propriae doctus euripidis rhoncus appetere vituperata malorum consectetur fusce facilisis sonet dolorum conceptam appareat cursus a altera risus vehicula utinam definiebas decore iusto mus non suscipiantur non assueverit iudicabit consul utroque omittantur sententiae auctor viris pulvinar sociis sagittis eam mandamus aliquam iaculis et consectetuer interpretaris meliore</p>
+  
+  <script>
+    function greeting() {
+      let greet = document.getElementById('greet');
+      let button = document.getElementById('button');
+    
+      if (greet.innerHTML === "Hello Bro") {
+        greet.innerHTML = "Hello Sis";
+        button.innerHTML = "I'm a boy..!";
+      }else {
+        greet.innerHTML = "Hello Bro";
+        button.innerHTML = "I'm a girl..!";
+      }
+    }
+  </script>
+</body>
+</html>
