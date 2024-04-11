@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Raleway;
+  margin: 0;
+  background-color: #dbd7d7;
+}
+
+header {
+  font-family: 'Protest Revolution';
+  font-size: 35px;
+  text-align: center;
+  background-color: #545352;
+  padding: 5px;
+  text-shadow: 3px 3px 1px #8f8c8c;
+  color: floralwhite;
+}
+
+header h2 {
+  display: inline-block;
+  width: 80%;
+}
+
+header h2:hover {
+  color: red;
+}
+
+aside {
+  padding: 2px;
+  width: 20%;
+  float: left;
+}
+
+.navbar {
+  text-align: center;
+  background-color: #000;
+  padding: 5px;
+  min-width: 100%;
+}
+
+.navbar ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: auto;
+  padding: 5px 15px;
+  font-family: Anta;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.heading {
+  font-family: Anta;
+}
+
+.symbol {
+  font-family: Raleway;
+  color: red;
+}
+
+section {
+  padding: 3px;
+  width: 40%;
+  float: left;
+}
+
+article {
+  padding: 2px;
+  width: 40%;
+  float: left;
+}
+
+footer {
+  display: block;
+  margin: auto;
+  clear: both;
+  font-family: Anta;
+  font-size: 15px;
+  text-align: center;
+  background-color: #545352;
+  padding: 5px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+@media screen and (max-width:720px) {
+  aside, section, article {
+    width: 100%;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  .heading {
+    background-color: grey;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+  }
+  
+  footer {
+    position: fixed;
+  }
+}
