@@ -1,0 +1,46 @@
+body {
+  margin: auto;
+  padding: 2px;
+  background-color: #051923;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  padding: 10px;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#icon {
+  font-size: 2em;
+}
+
+#countBtn {
+  font-size: 15em;
+  font-family: Anta;
+  margin: 10px 0;
+}
+
+#increase, #reset, #decrease {
+  padding: 8px;
+  background-color: #00A6FB;
+  box-shadow: 2px 2px 3px #051923;
+  color: #fff;
+  margin: 10px;
+  font-family: Anta;
+}
+
+#increase:hover,
+#reset:hover,
+#decrease:hover {
+  background-color: #006494;
+}
