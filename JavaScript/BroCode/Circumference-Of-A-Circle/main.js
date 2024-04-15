@@ -1,4 +1,4 @@
-const PI = 3.14;
+const PI = Math.PI;
 let circumference, radius;
 
 document.getElementById("submit").onclick = function () {
