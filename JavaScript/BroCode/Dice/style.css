@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(13, 27, 42);
+  color: rgb(255, 255, 255);
+  font-family: "Cantata One", serif;
+}
+
+.title {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 250px;
+  width: 250px;
+  background-color: rgb(27, 38, 59);
+  border-radius: 8px;
+  box-shadow: 2px 2px 0 #415A77;
+}
+
+.roll {
+  font-size: 15em;
+  font-family: "Anta", sans-serif;
+  text-shadow: 3px 3px 0 #415A77;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 30px;
+  font-family: "Anta", sans-serif;
+  font-size: 20px;
+  background-color: rgb(27, 38, 59);
+  color: rgb(224, 225, 221);
+  border-radius: 10px;
+  border: 2px solid rgb(0, 61, 91);
+}
+
+#rollBtn:hover {
+  background-color: rgb(65, 90, 119);
+  padding: 12px 32px;
+}
