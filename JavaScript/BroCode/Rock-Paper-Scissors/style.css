@@ -1,0 +1,45 @@
+body {
+  background-color: blanchedalmond;
+  margin: 25px 25px;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+}
+
+.heading {
+  text-shadow: 2px 2px 5px gray;
+  font-size: 2.5rem;
+}
+
+#choices {
+  margin-bottom: 25px;
+}
+
+#choices button {
+  font-size: 4rem;
+  background-color: hsla(203, 100%, 50%, 0.916);
+  padding: 25px;
+  border: none;
+  border-radius: 50%;
+  margin: 0 25px;
+}
+
+#playerDisplay {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 10px;
+}
+#comDisplay {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 10px;
+}
+#resultDisplay {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 10px;
+}
